@@ -1,0 +1,22 @@
+{
+  "ConnectionStrings": {
+    "ConnectionString": "Data Source=LAPTOP-ECQ5F76G\\SQLEXPRESS;Initial Catalog=EXAMEN_TECNICO;user id=sa;password=123456",
+    "IdentityConnectionString": "Data Source=LAPTOP-ECQ5F76G\\SQLEXPRESS;Initial Catalog=EXAMEN_TECNICO_SECURITY;User ID=sa;Password=123456;Trust Server Certificate=true;"
+  },
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      },
+      "enableLiveMetricsFilters": true
+    }
+  },
+  "JwtSettings": {
+    "Key": "5e6cfe49-8a33-440e-8215-365b70bb183d",
+    "Issuer": "jamuisDemo",
+    "Audience": "jamuisDemo",
+    "DurationInMinutes": 360
+  }
+}
